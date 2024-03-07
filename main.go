@@ -38,6 +38,6 @@ func main() {
 		Addr:    ":" + port,
 	}
 
-	log.Printf("Creating server on port: %s\n", port)
+	log.Printf("Server starting on port: %s\n", port)
 	log.Fatal(server.ListenAndServe())
 }
